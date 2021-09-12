@@ -1,0 +1,83 @@
+\documentclass[11pt]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Remove these 2 lines
+\usepackage[english]{babel}
+\usepackage{blindtext}
+
+% Defining a color
+\usepackage{xcolor}
+\definecolor{uwo-purple}{HTML}{4F2683}
+\definecolor{uwo-gray}{HTML}{807F83}
+
+\usetheme{CambridgeUS}
+
+% Customizing the template
+\setbeamercolor{frametitle}{fg=uwo-purple}
+\setbeamercolor{title}{fg=uwo-purple}
+\setbeamercolor{palette primary}{fg=black, bg=uwo-purple!30!white}
+\setbeamercolor{palette secondary}{fg=black, bg=uwo-purple!20!white}
+\setbeamercolor{palette tertiary}{bg=uwo-purple}
+
+
+\begin{document}
+	\author{Amir Haghighati}
+	\title{The Big Brown Fox Jumps}
+	\subtitle{Over The Lazy Dog}
+	\logo{\includegraphics[width=1cm]{resources/uwo-purple.png}}
+	\institute{Insight Lab}
+	\date{\today}
+	\subject{Lab Presentations}
+	%\setbeamercovered{transparent}
+	%\setbeamertemplate{navigation symbols}{}
+	\begin{frame}
+	\maketitle
+	\centering\tiny\hyperlink{mailto:ahaghig3@uwo.ca}{ahaghig3@uwo.ca}
+\end{frame}
+
+\section*{Overview}
+\begin{frame}
+\frametitle{Agenda}
+\tableofcontents
+\end{frame}
+
+\section{Introduction}
+\subsection{Definition}
+\begin{frame}
+\frametitle{The Well-known Problem}
+	\blindlist{itemize}[3]
+\end{frame}
+
+\subsection{Background}
+\begin{frame}
+\frametitle{The Past}
+	\begin{itemize}
+		\item<1->The first
+		\item<2->The second
+		\item<3->The last
+	\end{itemize}
+\end{frame}
+
+\section{Proposal}
+\subsection{Methodology}
+\begin{frame}
+\frametitle{Step 1}
+\framesubtitle{Overall view}
+	\begin{itemize}
+		\item<1->The first
+		\item<2->The second
+		\item<3->The last
+	\end{itemize}
+\end{frame}
+\begin{frame}
+\frametitle{Step 1 (Cont'd)}
+\framesubtitle{Aspects}
+\begin{enumerate}
+	\item<1->The first
+	\item<2->The second
+	\item<3->The last
+\end{enumerate}
+\end{frame}
+
+\end{document}
